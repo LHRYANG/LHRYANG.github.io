@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haoran Yang - Personal Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            color: rgb(250, 246, 246);
+            background: #032b4e;
+            padding: 50px 20px;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .chinese-name {
+            font-size: 1.5em;
+            color: #ada5a5;
+            margin-top: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #f8f8f8;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .content-section {
+            padding: 10px 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/d.jpg" alt="Haoran Yang Photo">
+        <h1>Haoran Yang - 杨浩然</h1>
+        <p>Ph.D. Student @ CUHK  |  LLM Research Engineer</p>
+        <div style="font-size: 1.5em;">
+            <!-- Google Scholar -->
+            <a href="https://scholar.google.com/citations?user=yq6_Dr8AAAAJ&hl=en" target="_blank" style="color:white; margin-right: 15px;">
+                <i class="fas fa-graduation-cap"></i>
+            </a>
+        
+            <!-- Email -->
+            <a href="mailto:yhrbest1234@gmail.com" style="color:white; margin-right: 15px;">
+                <i class="fas fa-envelope"></i>
+            </a>
+        
+            <!-- GitHub -->
+            <a href="https://github.com/LHRYANG/" target="_blank", style="color:white;">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+    </header>
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+        <a href="#service">Service</a>
+    </nav>
+    <div class="content">
+        <div id="bio" class="content-section">
+            <h2>Biography</h2>
+            <p>I received my PhD degree at The Chinese University of Hong Kong, supervised by <a href="https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/">Prof. Wai Lam</a>. I earned my Bachelor's degree in Computer Science from Shandong University, supervised by <a href="https://ir.sdu.edu.cn/~zhuminchen/~zhuminchen_en.htm">Prof. Zhumin Chen</a>.  In the past, I also interned at Ant Group, Tencent AI Lab, and CPII.
+            <br>
+            <br>
+            My research interests focus on domain adaptation and out-of-domain generalization for LLMs, advanced decoding strategies, and the development of multimodal agents for real-world deployment. 
+            
+            <p>Email: yhrbest1234 AT gamil.com </p>
+        </div>
+        
+        
+        
+
+        <div id="publications" class="content-section">
+            <h2>Publications</h2>
+            <p>(*: equal contribution, †: correspondence)</p> 
+            <ul>
+                <li> <a href="https://aclanthology.org/2024.naacl-long.51.pdf">Unveiling the Generalization Power of Fine-Tuned Large Language Models</a> <a href="https://github.com/LHRYANG/Generalization_of_FT-LLM">[Code]</a></li>
+                <b>Haoran Yang</b>, Yumeng Zhang, Jiaqi Xu, Hongyuan Lu, Pheng Ann Heng, Wai Lam <br>
+                <i> NAACL 2024 </i>
+                <br>
+                
+                <li> <a href="https://aclanthology.org/2024.naacl-srw.3.pdf">Exploring Compositional Generalization of Large Language Model</a></li>
+                <b>Haoran Yang</b>, Hongyuan Lu, Wai Lam, Deng Cai <br>
+                <i> NAACL Student Research Workshop 2024 </i>
+                <br>
+
+                <li> <a href="https://aclanthology.org/2024.naacl-srw.2.pdf">Rephrasing Invokes Better Generations for Large Language Models</a> </li>
+                <b>Haoran Yang</b>, Hongyuan Lu,  Wai Lam <br>
+                <i> NAACL Student Research Workshop 2024 </i>
+                <br>
+
+                <li> <a href="https://aclanthology.org/2024.emnlp-main.489.pdf">A thorough examination of decoding methods in the era of llms</a> <a href="https://github.com/DavidFanzz/llm_decoding">[Code]</a></li>
+                Chufan Shi*, <b>Haoran Yang*</b>, Deng Cai†, Zhisong Zhang, Yifan Wang, Yujiu Yang, Wai Lam <br>
+                <i> EMNLP 2024 </i>
+                <br>
+
+                <li> <a href="https://aclanthology.org/2024.emnlp-main.55.pdf">Chain-of-dictionary prompting elicits translation in large language models</a> <a href="https://github.com/HongyuanLuke/Chain-of-Dictionary">[Code]</a></li>
+                Hongyuan Lu*, <b>Haoran Yang*</b>, Haoyang Huang, Dongdong Zhang, Wai Lam, Furu Wei <br>
+                <i> EMNLP 2024 </i>
+                <br>
+
+                <li> <a href="https://aclanthology.org/2024.lrec-main.47.pdf">A Frustratingly Simple Decoding Method for Neural Text Generation</a> <a href="https://github.com/LHRYANG/FSD">[Code]</a></li>
+                <b>Haoran Yang</b>, Deng Cai†, Huayang Li, Wei Bi, Wai Lam, Shuming Shi <br>
+                <i> COLING 2024 </i>
+                <br>
+                
+
+                <li> <a href="https://arxiv.org/pdf/2211.15583">On the effectiveness of parameter-efficient fine-tuning</a> <a href="https://github.com/fuzihaofzh/AnalyzeParameterEfficientFinetune">[Code]</a></li>
+                Zihao Fu, <b>Haoran Yang</b>, Anthony Man-Cho So, Wai Lam, Lidong Bing, Nigel Collier <br>
+                <i> AAAI 2023 </i>
+                <br>
+
+                <li> <a href="https://aclanthology.org/2023.findings-eacl.28.pdf">Bridging the gap between pre-training and fine-tuning for commonsense generation</a> <a href="https://github.com/LHRYANG/CommonGen">[Code]</a></li>
+                <b>Haoran Yang</b>, Wanjing Zhang, Wai Lam <br>
+                <i> Findings of EACL 2023 </i>
+                <br>
+
+                <li> <a href="https://arxiv.org/pdf/2205.00872">COSPLAY: Concept Set Guided Personalized Dialogue Generation Across Both Party Personas</a> <a href="https://github.com/chenxu05037/COSPLAY">[Code]</a></li>
+                Chen Xu, Piji Li, Wei Wang, <b>Haoran Yang</b>, Siyun Wang, Chuangbai Xiao <br>
+                <i> SIGIR 2022 </i>
+                <br>
+
+                <li> <a href="https://proceedings.mlr.press/v157/yang21b/yang21b.pdf">A Two-Stage Training Framework with Feature-Label Matching Mechanism for Learning from Label Proportions</a> <a href="https://github.com/LHRYANG/LLP_FLMm">[Code]</a></li>
+                <b>Haoran Yang</b>, Wanjing Zhang, Wai Lam <br>
+                <i> ACML 2021 </i>
+                <br>
+
+                <li> <a href="https://aclanthology.org/2021.findings-emnlp.409.pdf">Contrastive Representation Learning for Exemplar-Guided Paraphrase Generation</a> <a href="https://github.com/LHRYANG/CRL_EGPG">[Code]</a></li>
+                <b>Haoran Yang</b>, Piji Li†, Wai Lam <br>
+                <i> Findings of EMNLP 2021 </i>
+                <br>
+
+                <li> <a href="https://aclanthology.org/2021.ranlp-1.175.pdf">Sentence Structure and Word Relationship Modeling for Emphasis Selection</a> <a href="https://github.com/LHRYANG/emphasis-selection">[Code]</a></li>
+                <b>Haoran Yang</b>, Wai Lam <br>
+                <i> RANLP 2021 </i>
+                <br>
+
+                <li> <a href="https://arxiv.org/pdf/2002.02153">A neural topical expansion framework for unstructured persona-oriented dialogue generation</a> <a href="https://github.com/irlab-sdu/Neural_Topical_Expansion_for_UPDS">[Code]</a></li>
+                Minghong Xu, Piji Li, <b>Haoran Yang</b>, Pengjie Ren, Zhaochun Ren, Zhumin Chen, Jun Ma <br>
+                <i> ECAI 2021 </i>
+                <br>
+                
+            </ul>
+        </div>
+        
+        <div id="preprints" class="content-section">
+            <h2>Preprints</h2>
+            <ul>
+                <li> <a href="https://arxiv.org/pdf/2407.04093">Stephanie: Step-by-Step Dialogues for Mimicking Human Interactions in Social Conversations</a></li>
+                Hao Yang, Hongyuan Lu, Xinhua Zeng, Yang Liu, Xiang Zhang, <b>Haoran Yang</b>, Yumeng Zhang, Shan Huang, Yiran Wei, Wai Lam <br>
+                <i> Arxiv 2024 </i>
+                <br>
+
+                <li> <a href="https://arxiv.org/pdf/2204.04596">Parameter-Efficient Tuning by Manipulating Hidden States of Pretrained Language Models For Classification Tasks</a></li>
+                <b>Haoran Yang</b>, Piji Li, Wai Lam <br>
+                <i> Arxiv 2022 </i>
+                <br>
+            </ul>
+        </div>
+        
+
+        <div id="education" class="content-section">
+            <h2>Education</h2>
+            <p>PhD, The Chinese University of Hong Kong <br>
+                <i>2019.8-2024.12 </i></p>
+            <p>BS, Shandong University <br>
+                <i>2015.9-2019.6</i></p>
+            
+        </div>
+
+        <div id="experience" class="content-section">
+            <h2>Experience</h2>
+            <p><b>Centre for Perceptual and Interactive Intelligence</b><br> 
+                Supervised by <a href="https://www1.se.cuhk.edu.hk/~htwai/">Prof. Hoi To Wai</a>, Hong Kong<br>
+                <i>research intern, 2024.2-2024.7 </i></p>
+
+            <p><b>Tencent AI Lab</b><br> 
+                Supervised by <a href="https://jcyk.github.io/">Deng Cai</a>, Shenzhen<br>
+                <i>research intern, 2022.9-2023.4 </i></p>
+
+            <p><b>Tencent AI Lab</b><br> 
+                Supervised by <a href="https://lipiji.com/">Piji Li</a>, Shenzhen<br>
+                <i>research intern, 2021.5-2021.11 </i></p>
+
+            <p><b>Ant Group</b><br> 
+                Supervised by Yafang Wang, Hangzhou<br>
+                <i>research intern, 2019.3-2019.4 </i></p>    
+        </div>
+
+
+        <div id="awards" class="content-section">
+            <h2>Awards and Honors</h2>
+            <p><b>CFA ESG</b>, 2024 <br>
+            <b>CFA Level-1</b>, 2023 <br>
+            <b>CUHK Vice-Chancellor’s Cup Table Tennis, Champion</b>, 2024 <br>
+            <b>AAAI Scholarship</b>, 2023 <br>
+            <b>Third prize of Zhihu Recommendation Competition</b>, 2018 <br>
+            <b>National Scholarship</b>, 2017 <br>
+            <b>First Prize Scholarship, Shandong University</b>, 2016, 2017 <br>
+            <b>National Scholarship</b>, 2017</p> 
+        </div>
+
+        <div id="service" class="content-section">
+            <h2>Service</h2>
+            <p>ACL(2023), NLPCC(2021, 2022), EMNLP(2022, 2023), COLING(2022, 2024), EACL(2021),
+                ARR(2024, 2025), etc. </p>
+        </div>
+
+    </div>
+</body>
+</html>
